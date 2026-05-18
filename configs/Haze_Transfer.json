@@ -1,0 +1,19 @@
+{
+  "lr_G": 1e-4,
+  "lr": 1e-4,
+  "resume": "",
+  "train_transmap_data_path": "",
+  "test_data_path": "",
+  "epoch_start": 0,
+  "epochs": 20,
+  "batch_size": 4,
+  "patch_size": 256,
+  "print_freq": 10,
+  "gpu_id": "0",
+  "gan_mode": "lsgan",
+  "model_dir": "",
+  "log_dir": "./logs_transmap",
+  "gamma": 0.75,
+  "lr_decay": 20,
+  "num_critic": 1
+}
